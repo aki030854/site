@@ -203,7 +203,16 @@ PC用のスタイル
     padding: 30px;
     text-align: left;
 }
+.service_title>p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: palevioletred;
+}
 
+.service_title>h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .service-acount{
     display: flex;
@@ -218,10 +227,14 @@ PC用のスタイル
     background-color: aqua;
 }
 
+.education-left>h3{
+    text-align: center;
+}
+
 .service-ing{
     width: 62%;
     margin: 0 auto;
-    
+
 }
 
 .right-img {
@@ -313,17 +326,8 @@ PC用のスタイル
 }
 
 
-.blog-in{
-    position: absolute;
-    top: 0;
-    color:white;
-    background-color: palevioletred;
-    border-radius: 20px 0 0 0;
-    padding: 10px;
-    width: 15%;
-    height: 3%;
 
-}
+
 
 
 .blog-content{
@@ -404,7 +408,7 @@ PC用のスタイル
 
 .recruit-img,.interview-img{
     width: 30%;
-    
+
 
 }
 
@@ -420,7 +424,7 @@ PC用のスタイル
 text-align: center;
 margin-top: 5em;
 }
-    
+
 
 
 .vertical{
@@ -432,7 +436,7 @@ margin-top: 5em;
 }
 
 .vertical-line{
-    
+
             width: 0.2em;
             /* 縦線の幅 */
             height: 3em;
@@ -440,6 +444,26 @@ margin-top: 5em;
             background-color: palevioletred;
             /* 縦線の色 */
         }
+.practice__btn {
+    width: 200px;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff5800, #8b00be);
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    margin: 100px auto 0;
+    display: block;
+    border-bottom: 5px solid #C75467;
+    margin-top: 20px;
+}
+
+.practice__btn:before {
+    content: url(img/cman.png);
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
 }
 
 
